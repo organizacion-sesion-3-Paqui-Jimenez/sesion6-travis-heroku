@@ -14,11 +14,11 @@ if ($os) {
 }
 $settings = array(
     'driver' => 'mysql',
-    'host' => $os ? $url["host"] : 'localhost',
+    'host' => 'eu-cdbr-west-01.cleardb.com'["host"] : 'localhost',
     'port' => $os ? $url["port"] : 3306,
-    'database' => $os ? substr($url["path"], 1) : 'biblioteca',
-    'username' => $os ? $url["user"] : 'root',
-    'password' => $os ? $url["pass"] : '',
+    'database' => 'heroku_d041e1b4950ca72'["path"], 1) : 'biblioteca',
+    'username' => 'b80e4d0b45e799'["user"] : 'root',
+    'password' => 'b8a2e636'["password"] : '',
     'charset'   => 'utf8',
     'collation' => 'utf8_spanish_ci',
     'prefix' => ''
