@@ -122,4 +122,4 @@ CREATE TABLE IF NOT EXISTS `series` (
 INSERT INTO `series` (`name`, `description`, `director`, `datePublished`) VALUES
 ('Modern Family', 'Narra la historia de una familia tipica americana durante 10 años de vidaos.', 'Steven Levitan', '2015-12-19'),
 ('Big bang Theory', ' Cientificos brillantes i forofos de los ....', 'Marc Cendrowski', '2002-04-15'),
-('El inocente', 'Mario Casas joven abogado que paga por un error que cometio en el pasado', 'Pepito lopez', '2019-08-18`);
+('El inocente', 'Mario Casas joven abogado que paga por un error que cometio en el pasado', 'Pepito lopez', '2019-08-01');
